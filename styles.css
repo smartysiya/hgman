@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#hangman-container {
+    height: 250px;
+}
+
+#hangman {
+    font-size: 24px;
+}
+
+#word {
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+#keyboard {
+    margin-top: 20px;
+}
+
+.key {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key.disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
